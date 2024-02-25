@@ -1,0 +1,20 @@
+{% load static %}
+{% load crispy_forms_tags %}
+<link rel="stylesheet" href="{% static 'css/search.css' %}">
+<div id='search-container'>
+    <div id="search-box">
+        <div id="search-inner">
+            <input placeholder="Enter something" id="search-input" />
+            <button type="button" id="search-button">
+                <img src="{% static 'images/reshot-icon-arrow-ZYWPF64C3H.svg' %}" alt=""/>
+            </button>
+        </div>
+    </div>
+</div>
+<div id="search-history-container">
+    <div id="search-history-box">
+        <ul id="search-history">
+
+        </ul>
+    </div>
+</div>
